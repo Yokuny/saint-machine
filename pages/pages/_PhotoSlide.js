@@ -46,12 +46,17 @@ function WorksSlide(){
         const RenderedImageElement = document.getElementById("RenderedImage");
         RenderedImageElement.src = allImages[currentPicture];
     }
+    setInterval(function randomImage(){
+        const RenderedImageElement = document.getElementById("RenderedImage");
+        const ImageCount = allImages.length;
+        RenderedImageElement.src = allImages[Math.floor(Math.random() * ImageCount)];
+    }, 4000);
     return(
         <>
         <div className="flex justify-center items-center object-contain">
-            <button onClick={previousPicture} className="relative -right-12 z-10 px-4 h-20 lg:h-52 bg-trueGray-900 bg-opacity-25 text-fuchsia-300 hover:text-gray-900 hover:bg-fuchsia-300 hover:bg-opacity-50 duration-500">{backwardWords}</button>
+            <button onClick={previousPicture} className="relative lg:-right-10 -right-7 px-1 z-10 lg:px-3 h-20 lg:h-52 bg-trueGray-900 bg-opacity-25 text-fuchsia-300 hover:text-gray-900 hover:bg-fuchsia-300 hover:bg-opacity-50 duration-500">{backwardWords}</button>
             <img id="RenderedImage" src={allImages[currentPicture]}/>
-            <button onClick={nextPicture} className="relative right-12 z-10 px-4 h-20 lg:h-52 bg-trueGray-900 bg-opacity-25 text-fuchsia-300 hover:text-gray-900 hover:bg-fuchsia-300 hover:bg-opacity-50 duration-500">{fowardWords}</button>
+            <button onClick={nextPicture} className="relative lg:right-10 right-7 px-1 z-10 lg:px-3 h-20 lg:h-52 bg-trueGray-900 bg-opacity-25 text-fuchsia-300 hover:text-gray-900 hover:bg-fuchsia-300 hover:bg-opacity-50 duration-500">{fowardWords}</button>
         </div>
         </>
     );
