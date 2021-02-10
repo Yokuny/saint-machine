@@ -55,11 +55,11 @@ function WorksSlide(){
     return(
         <>
         <div className="flex justify-center items-center object-contain">
-            <button onClick={previousPicture} className="relative lg:-right-10 -right-7 px-1 z-20 lg:px-3 h-20 lg:h-52 font-bold bg-trueGray-900 bg-opacity-25 text-fuchsia-300 hover:text-gray-900 hover:bg-fuchsia-300 hover:bg-opacity-50 duration-500">{backwardLetter}</button>
+            <button onClick={previousPicture} className="relative lg:-right-10 -right-7 px-2 z-20 md:px-3 h-20 md:h-52 font-bold bg-trueGray-900 bg-opacity-25 text-lightBlue-400 hover:text-gray-900 hover:bg-fuchsia-300 hover:bg-opacity-50 duration-500">{backwardLetter}</button>
             <img id="RenderedImage" src={allImages[currentPicture]}/>
             <div>
-                <button onClick={randomImage} className="relative lg:right-10 right-7 px-1 z-20 lg:px-3 h-10 lg:h-20 font-bold bg-trueGray-900 bg-opacity-25 text-fuchsia-300 hover:text-gray-900 hover:bg-fuchsia-300 hover:bg-opacity-50 duration-500">{randonLetter}</button>
-                <button onClick={nextPicture} className="relative lg:right-10 right-7 px-1 z-20 lg:px-3 h-20 lg:h-52 font-bold bg-trueGray-900 bg-opacity-25 text-fuchsia-300 hover:text-gray-900 hover:bg-fuchsia-300 hover:bg-opacity-50 duration-500">{fowardLetter}</button>
+                <button onClick={randomImage} className="relative lg:right-10 right-7 px-2 z-20 md:px-3 h-6 md:h-16 font-bold bg-trueGray-900 bg-opacity-25  text-lightBlue-400 hover:text-gray-900 hover:bg-fuchsia-300 hover:bg-opacity-50 duration-500">{randonLetter}</button>
+                <button onClick={nextPicture} className="relative lg:right-10 right-7 px-2 z-20 md:px-3 h-14 md:h-36 font-bold bg-trueGray-900 bg-opacity-25 text-lightBlue-400 hover:text-gray-900 hover:bg-fuchsia-300 hover:bg-opacity-50 duration-500">{fowardLetter}</button>
             </div>
         </div>
         </>
