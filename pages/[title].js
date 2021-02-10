@@ -42,10 +42,7 @@ export default function Post({title, projectLink, platform, socialNetworkNamesAn
         </>
     )
 }
-//aqui pegou os arquivos e passou como paramento pra essa pagina
-//is now using the getPostData function in getStaticProps to get the post data and return it as props
 export async function getStaticProps({ params }) {
-    //params retorna . o nome da path(rota) digitada na barra de navegação
   const dataName = params.title;
   const allDataContent = await getOnePostData(dataName);
   const {title, projectLink, platform, socialNetworkNamesAndLink, imgSrc, comment} = allDataContent;
@@ -54,25 +51,11 @@ export async function getStaticProps({ params }) {
           title, projectLink, platform, socialNetworkNamesAndLink, imgSrc, comment
       }
   }
-  //retorna ao 'props'
 }
-//aqui esta chamando a função do lib e pegando o nome dos arquivos
 export async function getStaticPaths() {
-  //const paths = getAllPostIds()
-  // return {
-  //   paths,
-  //   fallback: false
-  // }
   const eachFile = getContentsTitles();
-  // eachFile =
-  // [
-  //   { params: { title: 'FelipeRangelRibeiro' } },
-  //   { params: { title: 'MaryangelaCesconettoRainha' } },
-  //   { params: { title: 'TiagoRangelRibeiro' } }
-  // ]
   return {
       paths: eachFile,
       fallback: false
   }
-  //retorna ao 'getStaticProps'
 }

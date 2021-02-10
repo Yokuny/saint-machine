@@ -15,8 +15,7 @@ const AugustoCesarAndradeFarias = {
         [`https://mir-s3-cdn-cf.behance.net/project_modules/1400/b4c575112518481.60160575ba1dd.jpg`, menor, maior],
         [`https://mir-cdn.behance.net/v1/rendition/project_modules/1400/4dc3a9112518481.60160575bb4e6.jpg`, menor, maior],
         [`https://mir-cdn.behance.net/v1/rendition/project_modules/1400/10ecef112518481.60160575bbfe6.jpg`, emPe, maior],
-        [`https://mir-cdn.behance.net/v1/rendition/project_modules/1400/b54e6a112518481.60160575baa92.jpg`, 1060, maior],
-        [`https://mir-cdn.behance.net/v1/rendition/project_modules/1400/c97578112518481.60160575bc864.jpg`, menor, maior],
+        [`https://mir-cdn.behance.net/v1/rendition/project_modules/1400/b54e6a112518481.60160575baa92.jpg`, 1060, maior]
     ],
     comment:[
         `Com fogos corrosivos, ele escreveu a seguinte sentença, agora percebida pelas mentes dos homens e lida por eles na Terra:`,

@@ -1,8 +1,8 @@
-import Image from 'next/image';
 import allPostsDataGet from '../../utils/allPostsDataGet'
 function WorksSlide(){
-    const backwardWords = "<<";
-    const fowardWords = ">>";
+    const backwardLetter = "≺";
+    const fowardLetter = "≻";
+    const randonLetter = "⟲";
     let currentPicture = 0;
     const allPostsData = allPostsDataGet();
     const imagesPacks = allPostsData.map(function(FullPost){
@@ -28,6 +28,12 @@ function WorksSlide(){
             allImages.push(image[b]);
         }
     }
+    function randomImage() {
+        const RenderedImageElement = document.getElementById("RenderedImage");
+        const ImageCount = allImages.length;
+        currentPicture = Math.floor(Math.random() * ImageCount);
+        RenderedImageElement.src = allImages[currentPicture];
+    }
     function previousPicture() {
         if(currentPicture == 0){
             currentPicture = allImages.length-1;
@@ -46,22 +52,17 @@ function WorksSlide(){
         const RenderedImageElement = document.getElementById("RenderedImage");
         RenderedImageElement.src = allImages[currentPicture];
     }
-    setInterval(function randomImage(){
-        const RenderedImageElement = document.getElementById("RenderedImage");
-        const ImageCount = allImages.length;
-        RenderedImageElement.src = allImages[Math.floor(Math.random() * ImageCount)];
-    }, 4000);
     return(
         <>
         <div className="flex justify-center items-center object-contain">
-            <button onClick={previousPicture} className="relative lg:-right-10 -right-7 px-1 z-10 lg:px-3 h-20 lg:h-52 bg-trueGray-900 bg-opacity-25 text-fuchsia-300 hover:text-gray-900 hover:bg-fuchsia-300 hover:bg-opacity-50 duration-500">{backwardWords}</button>
+            <button onClick={previousPicture} className="relative lg:-right-10 -right-7 px-1 z-20 lg:px-3 h-20 lg:h-52 font-bold bg-trueGray-900 bg-opacity-25 text-fuchsia-300 hover:text-gray-900 hover:bg-fuchsia-300 hover:bg-opacity-50 duration-500">{backwardLetter}</button>
             <img id="RenderedImage" src={allImages[currentPicture]}/>
-            <button onClick={nextPicture} className="relative lg:right-10 right-7 px-1 z-10 lg:px-3 h-20 lg:h-52 bg-trueGray-900 bg-opacity-25 text-fuchsia-300 hover:text-gray-900 hover:bg-fuchsia-300 hover:bg-opacity-50 duration-500">{fowardWords}</button>
+            <div>
+                <button onClick={randomImage} className="relative lg:right-10 right-7 px-1 z-20 lg:px-3 h-10 lg:h-20 font-bold bg-trueGray-900 bg-opacity-25 text-fuchsia-300 hover:text-gray-900 hover:bg-fuchsia-300 hover:bg-opacity-50 duration-500">{randonLetter}</button>
+                <button onClick={nextPicture} className="relative lg:right-10 right-7 px-1 z-20 lg:px-3 h-20 lg:h-52 font-bold bg-trueGray-900 bg-opacity-25 text-fuchsia-300 hover:text-gray-900 hover:bg-fuchsia-300 hover:bg-opacity-50 duration-500">{fowardLetter}</button>
+            </div>
         </div>
         </>
     );
 }
-// export async function getServerSideProps() {
-//     const res = allImages[currentPicture]
-// }
 export default WorksSlide;
