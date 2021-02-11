@@ -54,7 +54,7 @@ function WorksSlide(){
     }
     return(
         <>
-        <div className="flex justify-center items-center object-contain overflow-auto">
+        <div className="flex justify-center items-center object-contain overflow-hidden">
             <button onClick={previousPicture} className="relative lg:-right-10 -right-7 px-2 z-20 md:px-3 h-20 md:h-52 font-bold bg-trueGray-900 bg-opacity-25 text-lightBlue-400 hover:text-gray-900 hover:bg-fuchsia-300 hover:bg-opacity-50 duration-500">{backwardLetter}</button>
             <img id="RenderedImage" src={allImages[currentPicture]}/>
             <div>

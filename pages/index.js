@@ -7,7 +7,7 @@ export default function FirstPage() {
           <div className="col-span-3">
               <_WorksSlide title="Posts" />
           </div>
-          <div className="lg:mt-14 mt-8 col-span-3 md:col-span-2">
+          <div className="my-14 col-span-3 md:col-span-2">
               <ContentField />
           </div>
       </div>

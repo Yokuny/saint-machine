@@ -2,7 +2,7 @@ import Image from 'next/image';
 import Link from 'next/link'
 export default function Header(){
     return(
-        <div className="mb-2 mt-1 lg:-mt-3">
+        <div className="my-6 md:mb-2 md:-mt-3">
         <Link href="/">
             <Image
                 className="cursor-pointer"
