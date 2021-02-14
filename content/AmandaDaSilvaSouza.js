@@ -1,6 +1,6 @@
-const menor = 800;
-const maior = 1200;
-const emPe = 1800;
+const menor = 1800;
+const maior = 2700;
+const emPe = 4050;
 const AmandaDaSilvaSouza = {
     file:`AmandaDaSilvaSouza`,
     title:`Amanda da Silva Souza`,

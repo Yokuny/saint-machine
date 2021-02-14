@@ -1,5 +1,5 @@
-const menor = 800
-const maior = 1200
+const menor = 1800;
+const maior = 2700;
 const AlexiaCsajkovicsFilgueiras = {
     file:"AlexiaCsajkovicsFilgueiras",
     title:`Alexia Csajkovics Filgueiras`,

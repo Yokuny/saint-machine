@@ -13,10 +13,10 @@ export default function Post({title, projectLink, platform, socialNetworkNamesAn
                 <ContentFieldTitle title={title} />
                 <ul className="mb-8">
                     <div key={title}>
-                        <div className="mt-2 grid grid-cols-1 gap-4">
+                        <div className="mt-2 grid grid-cols-1 gap-4 overflow-hidden">
                             {imgSrc.map(imgLink => (
-                                <div key={imgLink} className="flex justify-center items-center">
-                                    <Image src={imgLink[0]} alt="No loaded image"  height={imgLink[1]} width={imgLink[2]} quality={100}></Image>
+                                <div key={imgLink} className="flex justify-center items-center overflow-hidden">
+                                    <Image src={imgLink[0]} alt="No loaded image"  height={imgLink[1]} width={imgLink[2]} layout="intrinsic" quality={100}></Image>
                                 </div>
                             ))}
                         </div>
