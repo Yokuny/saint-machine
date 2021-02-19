@@ -13,6 +13,8 @@ import GiovanaBonassina from '../content/GiovanaBonassina'
 import DiegoDiasCosta from '../content/DiegoDiasCosta'
 import GuilhermeVargas from '../content/GuilhermeVargas'
 import CarolinaZorzal from '../content/CarolinaZorzal'
+import EvilynElviraManhoni from '../content/EvilynElviraManhoni'
+import PauloHenriqueAEller from '../content/PauloHenriqueAEller'
 GuilhermeVargas
 export default function allPostsDataGet(){
     const firstPackOfData = [];
@@ -33,6 +35,8 @@ export default function allPostsDataGet(){
     thirdPackOfData.unshift(DiegoDiasCosta);
     thirdPackOfData.unshift(GuilhermeVargas);
     thirdPackOfData.unshift(CarolinaZorzal);
+    thirdPackOfData.unshift(EvilynElviraManhoni);
+    thirdPackOfData.unshift(PauloHenriqueAEller);
 
     const allData = [];
     allData.unshift(firstPackOfData);
