@@ -7,7 +7,9 @@ const EvilynElviraManhoni = {
     projectLink:`https://www.behance.net/gallery/113787455/Evilyn-Elvira-Manhoni`,
     platform:`Behance`,
     socialNetworkNamesAndLink:[
-        [`instagram`,`https://www.instagram.com/carolinazorzal/`],
+        [`instagram`,`https://www.instagram.com/evilynelvira/`],
+        ['facebook','https://www.facebook.com/evilynelvira.manhoninicola'],
+        ['twitter','https://twitter.com/ElviraEvilyn']
     ],
     imgSrc:[
         [`https://mir-s3-cdn-cf.behance.net/project_modules/1400/157883113787455.602ea46cc0861.jpg`, menor, maior],
@@ -22,12 +24,11 @@ const EvilynElviraManhoni = {
         [`https://mir-s3-cdn-cf.behance.net/project_modules/1400/df402c113787455.602ea46cc1458.jpg`, emPe, maior],
     ],
     comment:[
-        `Eu estava impassível e surdo, como só um menino de onzeanos é capaz.`,
-        `Mas e agora, o que fazer? Tudo fora descoberto, tudo fora revelado, tudo oque eu guardava e escondia com tanto zelo!... A desonra e a vergonha eterna recairiam sobre mim! Para dizer a verdade, nem eu mesmo sabia como denominar isso que me metia tanto medo e o que queria esconder; mas o fato é que tinha medo de algo, e a iminência da revelação desse algo até então me fazia tremer como vara verde. Só de uma coisa eu não sabia até aquele momento: oque era aquilo — se aquilo era conveniente ou inconveniente, digno de louvor oude opróbio, louvável ou condenável? Agora, no entanto, para meu martírio e angústia violenta, percebi que era ridículo e vergonhoso! Ao mesmo tempo, instintivamente, sentia que esse veredito era falso, desumano e grosseiro; mas eu estava destroçado, aniquilado; minha faculdade de raciocínio parecia paralisadae embaralhada; não conseguia não só me contrapor a esse veredito como sequer examiná-lo bem—estava embotado; senti apenas que meu coração havia sido desumana e descaradamente ferido e me desfiz num choro estéril. Estava exasperado; mas fervia de indignação e de um ódio que até então nunca havia conhecido, pois era a primeira vez na vida que experimentava uma dor grave, oultraje e a ofensa; e tudo isso foi de fato assim, sem nenhum exagero. Eu, uma criança, tivera um primeiro sentimento, ainda vago e inexperiente, grosseiramente ultrajado, tivera meu primeiro sentimento de pudor fragrante evirginal tão cedo exposto e profanado, e minha primeira impressão estética, talvez muito séria, ridicularizada.`,
-        `Eu não poderia ainda saber que oque eu sentia era amor.`,
-        `E é claro que aqueles que riam de mim pouco sabiam disso e não faziam nem ideia do meu sofrimento. Em parte, a isso vinhase juntar uma circunstância secreta, que nem eu mesmo chegara a esclarecer eque de algum modo até então me metia medo. Em minha dor e desespero, continuei estendido em minha cama, com o rosto oculto no travesseiro; sentia febre e calafrios alternadamente. com que olhos, de que jeito poderia agora olhar para o rosto de Madame M* sem morrer devergonha e de desespero no mesmo instante e no mesmo lugar?`,
+        `No princípio era o Jardineiro. E o Jardineiro criou as Rosas. E tendo criado as Rosas, criou a chácara e o jardim, com todas as coisas que neles vivem para glória e contemplação das Rosas. Criou a palmeira, a grama. Criou as folhas, os galhos, os troncos e botões. Criou a terra e o estrume. Criou as árvores grandes para que amparassem o toldo azul que cobre o jardim e a chácara, e ele não caísse e esmagasse as Rosas. Criou as borboletas e os vermes. Criou o sol, as brisas, o orvalho e as chuvas.`,
+        `Grande é o Jardineiro! Suas longas pernas são feitas de tronco eterno. Os braços são galhos que nunca morrem; a espádua é como um forte muro por onde a erva trepa. As mãos, largas, espalham benefícios às Rosas.`,
+        `Vede agora mesmo. A noite voou, amanhã clareia o céu, cruzam-se as borboletas e os passarinhos, há uma chuva de pipilos e trinados no ar. Mas a terra estremece. É o pé do Jardineiro que caminha para as Rosas. Vede: traz nas mãos o regador que borrifa sobre as Rosas a água fresca e pura, e assim também sobre as outras plantas, todas criadas para glória das Rosas. Ele o formou no dia em que, tendo criado o sol, que dá vida às Rosas, este começou a arder sobre a terra. Ele o enche de água todas as manhãs, uma, duas, cinco, dez vezes. Para a noite, pôs ele no ar um grande regador invisível que peneira orvalho; e quando a terra seca e o calor abafa, enche o grande regador das chuvas que alagam a terra de água e de vida.`,
         `-`,
-        `Um pequeno herói - Fiódor Dostoiévski`,
+        `Metafísica das rosas – Machado de Assisi`,
     ]
 };
 export default EvilynElviraManhoni;
