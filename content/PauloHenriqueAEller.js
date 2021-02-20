@@ -7,7 +7,9 @@ const PauloHenriqueAEller = {
     projectLink:`https://www.behance.net/gallery/113729305/Paulo-Henrique-A-Eller`,
     platform:`Behance`,
     socialNetworkNamesAndLink:[
+        [`facebook`,`https://www.facebook.com/paulo.eller.skate`],
         [`instagram`,`https://www.instagram.com/paulo_eller/`],
+        [`linkedin`,`https://www.linkedin.com/in/paulo-eller-0a547332/`],
     ],
     imgSrc:[
         [`https://mir-s3-cdn-cf.behance.net/project_modules/2800_opt_1/8ca391113729305.602d9236daa30.jpg`, emPe, maior],
@@ -26,12 +28,14 @@ const PauloHenriqueAEller = {
         [`https://mir-s3-cdn-cf.behance.net/project_modules/2800_opt_1/5a4615113729305.602d9236ddc15.jpg`, menor, maior],
     ],
     comment:[
-        `Eu estava impassível e surdo, como só um menino de onzeanos é capaz.`,
-        `Mas e agora, o que fazer? Tudo fora descoberto, tudo fora revelado, tudo oque eu guardava e escondia com tanto zelo!... A desonra e a vergonha eterna recairiam sobre mim! Para dizer a verdade, nem eu mesmo sabia como denominar isso que me metia tanto medo e o que queria esconder; mas o fato é que tinha medo de algo, e a iminência da revelação desse algo até então me fazia tremer como vara verde. Só de uma coisa eu não sabia até aquele momento: oque era aquilo — se aquilo era conveniente ou inconveniente, digno de louvor oude opróbio, louvável ou condenável? Agora, no entanto, para meu martírio e angústia violenta, percebi que era ridículo e vergonhoso! Ao mesmo tempo, instintivamente, sentia que esse veredito era falso, desumano e grosseiro; mas eu estava destroçado, aniquilado; minha faculdade de raciocínio parecia paralisadae embaralhada; não conseguia não só me contrapor a esse veredito como sequer examiná-lo bem—estava embotado; senti apenas que meu coração havia sido desumana e descaradamente ferido e me desfiz num choro estéril. Estava exasperado; mas fervia de indignação e de um ódio que até então nunca havia conhecido, pois era a primeira vez na vida que experimentava uma dor grave, oultraje e a ofensa; e tudo isso foi de fato assim, sem nenhum exagero. Eu, uma criança, tivera um primeiro sentimento, ainda vago e inexperiente, grosseiramente ultrajado, tivera meu primeiro sentimento de pudor fragrante evirginal tão cedo exposto e profanado, e minha primeira impressão estética, talvez muito séria, ridicularizada.`,
-        `Eu não poderia ainda saber que oque eu sentia era amor.`,
-        `E é claro que aqueles que riam de mim pouco sabiam disso e não faziam nem ideia do meu sofrimento. Em parte, a isso vinhase juntar uma circunstância secreta, que nem eu mesmo chegara a esclarecer eque de algum modo até então me metia medo. Em minha dor e desespero, continuei estendido em minha cama, com o rosto oculto no travesseiro; sentia febre e calafrios alternadamente. com que olhos, de que jeito poderia agora olhar para o rosto de Madame M* sem morrer devergonha e de desespero no mesmo instante e no mesmo lugar?`,
+        `Uma destas tardes, como eu acabasse de jantar, e muito, lembrou-me dar um passeio à Praia de Santa Luzia, cuja solidão é propícia a todo homem que ama digerir em paz. Ali fui, e com tal fortuna que achei uma pedra lisa para me sentar, e nenhum fôlego vivo nem morto. — Nem morto, felizmente. Sentei-me, alonguei os olhos, espreguicei a alma, respirei à larga, e disse ao estômago: — Digere a teu gosto, meu velho companheiro.`,
+        `Digeria o estômago, enquanto o cérebro ia remoendo, tão certo é, que tudo neste mundo se resolve na mastigação. E digerindo, e remoendo, não reparei logo que havia, a poucos passos de mim, um par de coturnos velhos e imprestáveis. Um e outro tinham a sola rota, o tacão comido do longo uso, e tortos, porque é de notar que a generalidade dos homens camba, ou para um ou para outro lado. Um dos coturnos (digamos botas, que não lembra tanto a tragédia), uma das botas tinha um rasgão de calo. Ambas estavam maculadas de lama velha e seca; tinham o couro ruço, puído, encarquilhado.`
+        `Olhando casualmente para as botas, entrei a considerar as vicissitudes humanas, e a conjeturar qual teria sido a vida daquele produto social. Eis senão quando, ouço um rumor de vozes surdas; em seguida, ouvi sílabas, palavras, frases, períodos; e não havendo ninguém, imaginei que era eu, que eu era ventríloquo; e já podem ver se fiquei consternado. Mas não, não era eu; eram as botas que falavam entre si, suspiravam e riam, mostrando em vez de dentes, umas pontas de tachas enferrujadas. Prestei o ouvido; eis o que diziam as botas:`
+        `BOTA ESQUERDA.- Ora, pois, mana, respiremos e filosofemos um pouco.`,
+        `BOTA DIREITA.- Um pouco? Todo o resto da nossa vida, que não há de ser muito grande; mas enfim, algum descanso nos trouxe a velhice. Que destino! Uma praia! Lembras-te do tempo em que brilhávamos na vidraça da Rua do Ouvidor?`
+        `BOTA ESQUERDA.- Se me lembro! Quero até crer que éramos as mais bonitas de todas. Ao menos na elegância...`
         `-`,
-        `Um pequeno herói - Fiódor Dostoiévski`,
+        `Filosofia de um par de botas - Machado de Assis`,
     ]
 };
 export default PauloHenriqueAEller;
