@@ -28,7 +28,7 @@ const EvilynElviraManhoni = {
         `Grande é o Jardineiro! Suas longas pernas são feitas de tronco eterno. Os braços são galhos que nunca morrem; a espádua é como um forte muro por onde a erva trepa. As mãos, largas, espalham benefícios às Rosas.`,
         `Vede agora mesmo. A noite voou, amanhã clareia o céu, cruzam-se as borboletas e os passarinhos, há uma chuva de pipilos e trinados no ar. Mas a terra estremece. É o pé do Jardineiro que caminha para as Rosas. Vede: traz nas mãos o regador que borrifa sobre as Rosas a água fresca e pura, e assim também sobre as outras plantas, todas criadas para glória das Rosas. Ele o formou no dia em que, tendo criado o sol, que dá vida às Rosas, este começou a arder sobre a terra. Ele o enche de água todas as manhãs, uma, duas, cinco, dez vezes. Para a noite, pôs ele no ar um grande regador invisível que peneira orvalho; e quando a terra seca e o calor abafa, enche o grande regador das chuvas que alagam a terra de água e de vida.`,
         `-`,
-        `Metafísica das rosas – Machado de Assisi`,
+        `Metafísica das rosas – Machado de Assis`,
     ]
 };
 export default EvilynElviraManhoni;
