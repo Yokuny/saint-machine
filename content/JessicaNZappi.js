@@ -2,12 +2,12 @@ const menor = 1800;
 const maior = 2700;
 const emPe = 4050;
 const JessicaNZappi = {
-    file:"JéssicaNZappi",
+    file:"JessicaNZappi",
     title:`Jéssica N. Zappi`,
     projectLink:`https://www.behance.net/gallery/114273385/Jssica-N-Zappi`,
     platform:`Behance`,
     socialNetworkNamesAndLink:[
-        [`instagram`, `https://www.instagram.com/jessica_zappii/`],[`twitter`, `https://twitter.com/n_zappi`]
+        [`instagram`, `https://www.instagram.com/felipemuruci9/`],[`facebook`, `https://www.facebook.com/felipe.muruci.9i`]
     ],
     imgSrc:[
         [`https://mir-s3-cdn-cf.behance.net/project_modules/1400/3b7819114273385.6037de8e3b127.jpg`, menor, maior],
